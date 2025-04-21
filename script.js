@@ -32,3 +32,18 @@ btn.addEventListener('click', function () {
  out.innerHTML = checkbox.checked;  
 });
 
+const btn1 = document.querySelector('.b-5')
+const checkbox1 = document.querySelector('.i-5');
+const out1 = document.querySelector('.out-5')
+btn1.addEventListener('click', function () {
+  // out1.innerHTML = checkbox1.checked;
+  out1.textContent = checkbox1.checked ? checkbox1.value : false;
+});
+
+
+const btn2 = document.querySelector('.b-6')
+const checkbox2 = document.querySelector('.i-6');
+const out2 = document.querySelector('.out-6')
+btn2.addEventListener('click', function () {
+  out2.textContent = checkbox2.value;
+});
