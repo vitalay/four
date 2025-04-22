@@ -143,6 +143,13 @@ document.querySelector('.b-16').addEventListener('click', () => {
   out16.textContent = s16.value
 })
 
+const s17 = document.querySelector('.s-17')
+const out17 = document.querySelector('.out-17')
+
+function f17() {
+  out17.textContent = s17.value
+
+}
 
 
 
