@@ -97,6 +97,15 @@ document.querySelector('.b-10').addEventListener('click', () => {
 })
 
 
+
+document.querySelector('.b-11').addEventListener('click', () => {
+  const i111 = document.querySelector('.i-111').value
+document.querySelector('.i-112').value = i111
+
+
+
+});
+
   
 
 
