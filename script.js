@@ -137,6 +137,14 @@ document.querySelector('.b-15').addEventListener('click', () => {
   t15.textContent = i15.value
 })
 
+const s16 = document.querySelector('.s-16')
+const out16 = document.querySelector('.out-16')
+document.querySelector('.b-16').addEventListener('click', () => {
+  out16.textContent = s16.value
+})
+
+
+
 
 
 
