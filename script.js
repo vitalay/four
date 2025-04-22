@@ -160,6 +160,25 @@ function f18() {
 
 }
 
+const i191 = document.querySelector('.i-191')
+const i192 = document.querySelector('.i-192')
+const out19 = document.querySelector('.out-19')
+document.querySelector('.b-19').addEventListener('click', () => {
+  out19.textContent = i191.value + ' ' + i192.value
+})
+
+
+document.querySelector('.b-20').addEventListener('click', function () {
+  const form = document.querySelector('.f-20');
+  const login = form.elements.username.value;
+  const password = form.elements.password.value;
+
+  document.querySelector('.out-20').textContent = `${login} ${password}`;
+});
+
+
+
+
 
 
 
