@@ -152,6 +152,13 @@ function f17() {
 }
 
 
+const s18 = document.querySelector('.s-18')
+const i18 = document.querySelector('.i-18')
+
+function f18() {
+  i18.value = s18.value
+
+}
 
 
 
