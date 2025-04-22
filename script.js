@@ -67,3 +67,24 @@ btn7.addEventListener('click', function () {
 });
 
 
+
+
+document.querySelector('.b-8').addEventListener('click', () => {
+  document.querySelector('.out-8').innerHTML = `
+  <input type="text" class="i-81">
+  <button class="b-81">Задача</button>
+  `;
+ document.querySelector('.b-81').addEventListener('click', function f81() {
+  const i81 = document.querySelector('.i-81').value;
+document.querySelector('.out-81').textContent = i81;
+})
+});
+
+
+  
+
+
+
+
+
+
