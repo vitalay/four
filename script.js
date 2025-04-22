@@ -119,5 +119,13 @@ document.querySelector('.b-12').addEventListener('click', function () {
     selectedDate ? `Выбранная дата: ${selectedDate}` : "Дата не выбрана";
 });
 
+// document.querySelector('.i-13').addEventListener('input', function () {
+//   document.querySelector('.out-13').textContent = this.value;
+// });
+
+
+
+
+
 
 
