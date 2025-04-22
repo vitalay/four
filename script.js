@@ -99,17 +99,25 @@ document.querySelector('.b-10').addEventListener('click', () => {
 
 
 document.querySelector('.b-11').addEventListener('click', () => {
-  const i111 = document.querySelector('.i-111').value
+const i111 = document.querySelector('.i-111').value
 document.querySelector('.i-112').value = i111
-
-
 
 });
 
-  
+// const i12 = document.querySelector('.i-12')
+// const out12 = document.querySelector('.out-12')
+//   document.querySelector('.b-12').addEventListener('click', () => {
+//    out12.textContent = i12.value;
+//   })
 
+document.querySelector('.b-12').addEventListener('click', function () {
+  // Получаем выбранную дату
+  const selectedDate = document.querySelector('.i-12').value;
 
-
+  // Выводим дату в элемент out-12
+  document.querySelector('.out-12').textContent =
+    selectedDate ? `Выбранная дата: ${selectedDate}` : "Дата не выбрана";
+});
 
 
 
