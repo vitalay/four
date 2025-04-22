@@ -47,3 +47,23 @@ const out2 = document.querySelector('.out-6')
 btn2.addEventListener('click', function () {
   out2.textContent = checkbox2.value;
 });
+
+const btn7 = document.querySelector('.b-7')
+const i7 = document.querySelector('.i-7')
+const out71 = document.querySelector('.out-71')
+const out72 = document.querySelector('.out-72')
+
+btn7.addEventListener('click', function () {
+  
+  out71.textContent = i7.value;
+ 
+  if (i7.value.length >= 6) {
+    out72.textContent = 1;
+  }else {
+    out72.textContent = 0;
+  }
+  i7.value = ''
+
+});
+
+
