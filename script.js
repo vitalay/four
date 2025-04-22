@@ -123,6 +123,20 @@ document.querySelector('.b-12').addEventListener('click', function () {
 //   document.querySelector('.out-13').textContent = this.value;
 // });
 
+const i14 = document.querySelector('.i-14')
+const out14 = document.querySelector('.out-14')
+document.querySelector('.b-14').addEventListener('click', () => {
+  out14.textContent = i14.value
+})
+
+const t15 = document.querySelector('.t-15')
+const i15 = document.querySelector('.i-15')
+const out15 = document.querySelector('.out-15')
+document.querySelector('.b-15').addEventListener('click', () => {
+  out15.textContent = i15.value
+  t15.textContent = i15.value
+})
+
 
 
 
