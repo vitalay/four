@@ -90,6 +90,11 @@ document.querySelector('.b-9').addEventListener('click', () => {
 //  }
   out9.textContent = radio.checked ? radio.value : '0';
 })
+const i10 = document.querySelector('.i-10')
+const out10 = document.querySelector('.out-10')
+document.querySelector('.b-10').addEventListener('click', () => {
+  out10.style.background = i10.value
+})
 
 
   
