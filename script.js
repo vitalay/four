@@ -80,6 +80,17 @@ document.querySelector('.out-81').textContent = i81;
 })
 });
 
+const radio = document.querySelector('.r-9')
+const out9 = document.querySelector('.out-9')
+document.querySelector('.b-9').addEventListener('click', () => {
+//  if (radio.checked){
+//  out9.textContent =  radio.value
+//  }else {
+//   out9.textContent = 0
+//  }
+  out9.textContent = radio.checked ? radio.value : '0';
+})
+
 
   
 
